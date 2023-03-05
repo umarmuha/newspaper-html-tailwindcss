@@ -6,10 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The News Times</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              brand: ["Snell Roundhand"],
+            },
+          },
+        },
+      };
+    </script>
   </head>
   <body class="grid justify-center bg-gray-200 p-4">
-    <header class="col-span-3 m-24 text-center">
-      <h1 class="font-brand text-5xl italic text-gray-800">The News Times</h1>
+    <header class="col-span-3 m-12 text-center">
+      <h1 class="font-brand text-6xl text-gray-800">The News Times</h1>
     </header>
     <nav class="col-span-3 mb-12 h-24 rounded-lg border-4 border-gray-800 p-6">
       <ul class="flex list-none justify-between space-x-12 font-bold">
@@ -75,7 +86,7 @@
         ut eos tempora sequi, doloribus vitae mollitia praesentium ex ullam?
         Dolorem labore fugiat neque nostrum porro vero fugit.
       </p>
-      <p>
+      <p class="pt-4">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
         corrupti, eius odio neque incidunt esse fuga veritatis ipsum, eligendi
         mollitia, porro quasi provident nisi sit! Doloribus, eligendi nemo, ad
@@ -94,7 +105,7 @@
         recusandae quaerat. Dolores excepturi earum minus magni! Animi aperiam
         eligendi molestias necessitatibus ducimus.
       </p>
-      <p>
+      <p class="pt-4">
         Voluptate, ut, cupiditate ducimus vitae blanditiis ex impedit debitis
         est tempora dolores nam sed. Esse nobis ea inventore qui enim quia
         beatae ab commodi laboriosam quam aliquam aut perspiciatis fuga nam
@@ -118,7 +129,7 @@
         gravida. Feugiat sed lectus vestibulum mattis ullamcorper. Accumsan
         lacus vel facilisis volutpat est.
       </p>
-      <p>
+      <p class="pt-4">
         Elit sed vulputate mi sit amet mauris commodo. Enim eu turpis egestas
         pretium aenean pharetra. Sed viverra tellus in hac habitasse platea
         dictumst. Pretium fusce id velit ut tortor pretium viverra suspendisse.
@@ -130,7 +141,7 @@
         habitasse platea dictumst. Adipiscing elit duis tristique sollicitudin
         nibh sit amet.
       </p>
-      <p>
+      <p class="pt-4">
         Vel orci porta non pulvinar neque laoreet. Velit euismod in pellentesque
         massa placerat duis ultricies. Eget nunc scelerisque viverra mauris in
         aliquam sem fringilla. Nisl rhoncus mattis rhoncus urna neque viverra
